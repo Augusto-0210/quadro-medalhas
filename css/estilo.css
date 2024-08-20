@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=New+Amsterdam&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+h1{
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.medalhas {
+    height: 20px;
+    width: 20px;
+}
+
+.bandeiras{
+    height: 25px;
+    width: 25px;
+}
+
+td {
+    text-align: center;
+}
+
+.pais {
+    text-align: left;
+    width: 200px;
+}
+
+td {
+    width: 30px;
+}
+
+td:nth-child(1) {
+    width: 15px;
+}
+
+img:hover {
+    transform: scale(5);
+}
+
+tr:hover {
+    background-color: red;
+}
